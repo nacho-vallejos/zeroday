@@ -8,6 +8,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        'cyber-bg': '#050505',
+        'cyber-surface': '#111111',
+        'cyber-purple': '#A855F7',
+        'cyber-cyan': '#22D3EE',
         'void-purple': '#7c3aed',
         'void-purple-light': '#8b5cf6',
         'void-cyan': '#06b6d4',
@@ -22,6 +26,8 @@ module.exports = {
       boxShadow: {
         'purple-glow': '0 0 20px rgba(124, 58, 237, 0.5), 0 0 40px rgba(124, 58, 237, 0.3)',
         'purple-glow-intense': '0 0 30px rgba(124, 58, 237, 0.8), 0 0 60px rgba(124, 58, 237, 0.5), 0 0 90px rgba(124, 58, 237, 0.3)',
+        'cyber-purple-glow': '0 0 20px #A855F7, 0 0 40px #A855F7',
+        'cyber-cyan-glow': '0 0 20px #22D3EE, 0 0 40px #22D3EE',
         'cyan-glow': '0 0 20px rgba(6, 182, 212, 0.5), 0 0 40px rgba(6, 182, 212, 0.3)',
       },
       animation: {
