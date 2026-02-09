@@ -39,10 +39,10 @@ export default function TerminalTooltip({ text, children, delay = 30 }: Terminal
     >
       {children}
       {isHovered && (
-        <div className="absolute left-0 top-full mt-2 z-50 min-w-[200px] animate-fade-in">
-          <div className="bg-black/95 border border-void-purple/50 p-3 rounded shadow-purple-glow">
+        <div className="absolute left-1/2 -translate-x-1/2 top-full mt-2 z-50 w-max max-w-[280px] sm:max-w-sm animate-fade-in">
+          <div className="bg-black/95 border border-matrix-green/50 p-3 rounded shadow-[0_0_10px_rgba(0,255,65,0.3)]">
             <div className="flex items-start gap-2">
-              <span className="text-void-purple text-xs flex-shrink-0">root@void:~$</span>
+              <span className="text-matrix-green text-xs flex-shrink-0">root@void:~$</span>
               <span className="text-green-400 text-xs font-mono break-words">
                 {displayedText}
                 {currentIndex < text.length && (
