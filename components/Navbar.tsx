@@ -15,7 +15,7 @@ export default function Navbar() {
           <div className="flex items-center space-x-2 sm:space-x-3 group">
             <Terminal className="w-5 h-5 sm:w-6 sm:h-6 text-matrix-green group-hover:animate-glitch" strokeWidth={1.5} />
             <span className="text-lg sm:text-xl font-bold tracking-wider text-matrix-green group-hover:animate-glitch">
-              [VOID::LABS]
+              [NULL::POINTER]
             </span>
           </div>
 

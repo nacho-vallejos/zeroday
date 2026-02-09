@@ -9,26 +9,26 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'VOID SECURITY LABS - Elite Red Team Operations & Offensive Security Tools',
-  description: 'Professional Red Team services, custom malware development, security tool creation, and advanced penetration testing training. Built by expert engineers and security researchers.',
-  keywords: 'red team, penetration testing, malware development, offensive security, security tools, cybersecurity training, exploit development, threat simulation, custom exploits, security audits',
-  authors: [{ name: 'VOID SECURITY LABS' }],
-  creator: 'VOID SECURITY LABS',
-  publisher: 'VOID SECURITY LABS',
+  title: 'NULL POINTER LABS - Kernel-Level Exploitation & Zero-Day Research',
+  description: 'Advanced kernel exploitation research, zero-day vulnerability discovery, and offensive security operations. Ring-0 level research by expert security engineers.',
+  keywords: 'kernel exploitation, zero-day research, ring-0, privilege escalation, offensive security, exploit development, vulnerability research, APT operations, kernel debugging, rootkit development',
+  authors: [{ name: 'NULL POINTER LABS' }],
+  creator: 'NULL POINTER LABS',
+  publisher: 'NULL POINTER LABS',
   robots: 'index, follow',
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://voidsecuritylabs.com',
-    title: 'VOID SECURITY LABS - Elite Red Team & Offensive Security',
-    description: 'Professional Red Team operations, custom malware tools, and advanced security training by expert engineers.',
-    siteName: 'VOID SECURITY LABS',
+    url: 'https://nullpointerlabs.com',
+    title: 'NULL POINTER LABS - Kernel Exploitation & Zero-Day Research',
+    description: 'Advanced kernel-level research and zero-day vulnerability discovery by expert security engineers.',
+    siteName: 'NULL POINTER LABS',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'VOID SECURITY LABS - Elite Red Team Operations',
-    description: 'Professional offensive security services and custom tool development',
-    creator: '@voidsecuritylabs',
+    title: 'NULL POINTER LABS - Ring-0 Operations',
+    description: 'Kernel exploitation research and zero-day vulnerability intelligence',
+    creator: '@nullpointerlabs',
   },
 }
 
@@ -40,7 +40,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="canonical" href="https://voidsecuritylabs.com" />
+        <link rel="canonical" href="https://nullpointerlabs.com" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
         <meta name="theme-color" content="#0a0a0a" />
       </head>
@@ -51,21 +51,21 @@ export default function RootLayout({
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'Organization',
-              name: 'VOID SECURITY LABS',
-              description: 'Elite Red Team operations and offensive security tool development',
-              url: 'https://voidsecuritylabs.com',
-              logo: 'https://voidsecuritylabs.com/logo.png',
+              name: 'NULL POINTER LABS',
+              description: 'Kernel-level exploitation research and zero-day vulnerability intelligence',
+              url: 'https://nullpointerlabs.com',
+              logo: 'https://nullpointerlabs.com/logo.png',
               sameAs: [
-                'https://twitter.com/voidsecuritylabs',
-                'https://github.com/voidsecuritylabs',
+                'https://twitter.com/nullpointerlabs',
+                'https://github.com/nullpointerlabs',
               ],
               contactPoint: {
                 '@type': 'ContactPoint',
-                contactType: 'Sales',
-                email: 'contact@voidsecuritylabs.com',
+                contactType: 'Security Research',
+                email: 'research@nullpointerlabs.com',
               },
               areaServed: 'Worldwide',
-              serviceType: ['Red Team Operations', 'Penetration Testing', 'Security Tool Development', 'Malware Analysis Training'],
+              serviceType: ['Kernel Exploitation', 'Zero-Day Research', 'Vulnerability Intelligence', 'Ring-0 Operations', 'Security Audits'],
             }),
           }}
         />

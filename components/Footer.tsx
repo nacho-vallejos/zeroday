@@ -10,9 +10,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 mb-8 sm:mb-12">
           {/* Column 1 - Brand */}
           <div>
-            <h4 className="text-xs sm:text-sm font-bold tracking-wider text-matrix-green mb-3 sm:mb-4">[VOID::LABS]</h4>
+            <h4 className="text-xs sm:text-sm font-bold tracking-wider text-matrix-green mb-3 sm:mb-4">[NULL::POINTER]</h4>
             <p className="text-xs sm:text-sm text-gray-300 leading-relaxed font-mono">
-              Underground exploit marketplace and custom offensive tool development. Trusted since 2015.
+              Kernel-level exploitation research and zero-day intelligence. Offensive security since 2015.
             </p>
           </div>
 
@@ -64,23 +64,17 @@ export default function Footer() {
 
         {/* Legal Disclaimer */}
         <div className="glass-card p-4 sm:p-6 rounded-lg mb-6 sm:mb-8 border border-matrix-green/20">
-          <h5 className="text-xs sm:text-sm font-bold tracking-wider text-matrix-green mb-2 sm:mb-3 animate-glitch">⚠️ [DISCLAIMER::LEGAL]</h5>
+          <h5 className="text-xs sm:text-sm font-bold tracking-wider text-matrix-green mb-2 sm:mb-3 animate-glitch">⚠️ [STATUS::NON-ATTRIBUTION_MODE]</h5>
           <p className="text-[10px] sm:text-xs leading-relaxed text-gray-200 font-mono">
-            &gt; VOID LABS operates in the underground offensive security market. All exploits, malware, RATs, and payloads 
-            provided are intended <span className="text-matrix-green font-semibold">EXCLUSIVELY for authorized penetration testing</span>, 
-            security research, and <span className="text-matrix-green font-semibold">legitimate red team operations</span> with proper authorization. 
-            We are not responsible for illegal use, unauthorized access, or malicious deployment. 
-            By accessing our marketplace, you acknowledge full responsibility and agree to comply with all applicable laws. 
-            All transactions are <span className="text-matrix-green font-semibold">anonymous and encrypted</span>. 
-            Misuse will result in permanent blacklist. <span className="text-red-500 font-semibold">[USE AT YOUR OWN RISK]</span>
+            &gt; <span className="text-matrix-green font-semibold">DISCLAIMER:</span> Todos los artefactos, scripts e investigaciones presentados en este sitio son para propósitos de <span className="text-matrix-green font-semibold">simulación de adversarios</span>, auditoría de seguridad autorizada y fines educativos. El uso de estas herramientas en sistemas <span className="text-red-500 font-semibold">sin autorización expresa es ilegal</span> y está fuera de nuestra responsabilidad. Todas las operaciones requieren <span className="text-matrix-green font-semibold">consentimiento explícito por escrito</span>. NULL POINTER LABS no se hace responsable del uso indebido de la información. <span className="text-red-500 font-semibold">[AUTHORIZED_USE_ONLY]</span>
           </p>
         </div>
 
         {/* Bottom Bar - Responsive */}
         <div className="flex flex-col sm:flex-row items-center justify-between text-xs sm:text-sm text-gray-400 gap-2 sm:gap-0 font-mono">
-          <p className="text-matrix-green/70">© 2026 [VOID::LABS] // All exploits reserved</p>
+          <p className="text-matrix-green/70">© 2026 [NULL::POINTER] // Kernel-level research</p>
           <p className="text-center sm:text-right text-matrix-green/70">
-            root@void:~# <span className="text-gray-300">Trusted by APT groups worldwide</span>
+            root@nullptr:~# <span className="text-gray-300">Ring-0 operations worldwide</span>
           </p>
         </div>
       </div>

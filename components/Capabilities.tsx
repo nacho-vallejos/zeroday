@@ -70,32 +70,32 @@ export default function Capabilities() {
 
         {/* Service Cards Grid */}
         <div className="grid md:grid-cols-3 gap-6 sm:gap-8 mt-12 sm:mt-16">
-          {/* Exploit Marketplace */}
-          <TerminalTooltip text="curl -X GET https://void.onion/api/exploits">
+          {/* Zero-Day Intelligence */}
+          <TerminalTooltip text="curl -X GET https://nullptr.onion/api/research">
             <div className="glass-card p-6 sm:p-8 rounded-lg text-center hover:shadow-[0_0_20px_rgba(0,255,65,0.5)] transition-all duration-300 cursor-pointer border border-matrix-green/20 hover:border-matrix-green">
-              <h3 className="text-sm sm:text-base font-semibold tracking-wider text-matrix-green mb-3">[EXPLOIT::MARKET]</h3>
+              <h3 className="text-sm sm:text-base font-semibold tracking-wider text-matrix-green mb-3">[ZERO::DAY::INTEL]</h3>
               <p className="text-xs sm:text-sm text-gray-200 leading-relaxed font-mono">
-                500+ private 0days, CVE exploits, APT toolkits. Full source + documentation. Guaranteed FUD for 90 days.
+                Vulnerability research, CVE discovery, and exploit proof-of-concepts. Kernel-level privilege escalation techniques.
               </p>
             </div>
           </TerminalTooltip>
 
-          {/* Custom Malware */}
-          <TerminalTooltip text="./build_malware.sh --target=windows --bypass=all">
+          {/* Kernel Exploitation */}
+          <TerminalTooltip text="./exploit.sh --target=kernel --ring=0 --stealth">
             <div className="glass-card p-6 sm:p-8 rounded-lg text-center hover:shadow-[0_0_20px_rgba(0,255,65,0.5)] transition-all duration-300 cursor-pointer border border-matrix-green/20 hover:border-matrix-green">
-              <h3 className="text-sm sm:text-base font-semibold tracking-wider text-matrix-green mb-3">[MALWARE::CUSTOM]</h3>
+              <h3 className="text-sm sm:text-base font-semibold tracking-wider text-matrix-green mb-3">[KERNEL::EXPLOIT]</h3>
               <p className="text-xs sm:text-sm text-gray-200 leading-relaxed font-mono">
-                Bespoke RATs, ransomware, keyloggers, cryptominers. Advanced evasion techniques. Persistence guaranteed.
+                Ring-0 exploitation techniques, KASLR bypass, SMEP/SMAP evasion. Advanced kernel debugging and rootkit development.
               </p>
             </div>
           </TerminalTooltip>
 
-          {/* Underground Training */}
-          <TerminalTooltip text="ssh training@darknet.void -p 31337">
+          {/* Red Team Training */}
+          <TerminalTooltip text="ssh research@nullptr.labs -p 31337">
             <div className="glass-card p-6 sm:p-8 rounded-lg text-center hover:shadow-[0_0_20px_rgba(0,255,65,0.5)] transition-all duration-300 cursor-pointer border border-matrix-green/20 hover:border-matrix-green">
-              <h3 className="text-sm sm:text-base font-semibold tracking-wider text-matrix-green mb-3">[TRAINING::DARK]</h3>
+              <h3 className="text-sm sm:text-base font-semibold tracking-wider text-matrix-green mb-3">[RESEARCH::TRAINING]</h3>
               <p className="text-xs sm:text-sm text-gray-200 leading-relaxed font-mono">
-                Learn from elite blackhats. Reverse engineering, exploit dev, network infiltration. Private 1-on-1 sessions.
+                Advanced exploit development, reverse engineering, and APT simulation. Private mentorship from kernel researchers.
               </p>
             </div>
           </TerminalTooltip>
@@ -103,20 +103,20 @@ export default function Capabilities() {
 
         {/* Team Info Section */}
         <div className="mt-12 sm:mt-16 glass-card p-6 sm:p-8 rounded-lg max-w-4xl mx-auto text-center border border-matrix-green/20" id="team">
-          <h3 className="text-base sm:text-lg font-bold tracking-wider text-matrix-green mb-4 animate-glitch">[CREW::ANONYMOUS]</h3>
+          <h3 className="text-base sm:text-lg font-bold tracking-wider text-matrix-green mb-4 animate-glitch">[RESEARCH::TEAM]</h3>
           <p className="text-sm sm:text-base text-gray-200 leading-relaxed mb-4 font-mono">
-            Our collective includes seasoned <span className="text-matrix-green font-semibold">Black Hat Hackers</span>, 
-            ex-APT operators, <span className="text-matrix-green font-semibold">Malware Architects</span>, 
-            underground <span className="text-matrix-green font-semibold">Exploit Brokers</span>, 
-            and <span className="text-matrix-green font-semibold">Network Infiltration Specialists</span>. 
-            Operating since 2015. Trusted by ghost ops worldwide.
+            Our collective includes <span className="text-matrix-green font-semibold">Kernel Security Researchers</span>, 
+            former APT analysts, <span className="text-matrix-green font-semibold">Exploit Developers</span>, 
+            <span className="text-matrix-green font-semibold">Vulnerability Researchers</span>, 
+            and <span className="text-matrix-green font-semibold">Red Team Operators</span>. 
+            Operating since 2015. Ring-0 operations worldwide.
           </p>
           <div className="flex flex-wrap justify-center gap-3 sm:gap-4 text-xs sm:text-sm text-gray-300 font-mono">
             <span className="px-3 py-1 glass-card rounded border border-matrix-green/20">C/C++/ASM</span>
-            <span className="px-3 py-1 glass-card rounded border border-matrix-green/20">Reverse Eng</span>
-            <span className="px-3 py-1 glass-card rounded border border-matrix-green/20">Exploit Dev</span>
-            <span className="px-3 py-1 glass-card rounded border border-matrix-green/20">OPSEC Master</span>
-            <span className="px-3 py-1 glass-card rounded border border-matrix-green/20">Anonymous</span>
+            <span className="px-3 py-1 glass-card rounded border border-matrix-green/20">Kernel Debug</span>
+            <span className="px-3 py-1 glass-card rounded border border-matrix-green/20">0day Research</span>
+            <span className="px-3 py-1 glass-card rounded border border-matrix-green/20">Ring-0 Ops</span>
+            <span className="px-3 py-1 glass-card rounded border border-matrix-green/20">APT Intel</span>
           </div>
         </div>
       </div>

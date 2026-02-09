@@ -1,31 +1,32 @@
-# 🛡️ VOID SECURITY LABS
+# � NULL POINTER LABS
 
-> Elite Red Team Operations & Advanced Offensive Security Arsenal
+> Kernel-Level Exploitation & Zero-Day Research Intelligence
 
-Professional landing page for an elite offensive security firm specializing in Red Team operations, custom malware development, and advanced penetration testing training. Built with Next.js 14, Tailwind CSS, and cutting-edge glassmorphism effects.
+Professional landing page for an elite security research firm specializing in kernel exploitation, zero-day vulnerability discovery, and Ring-0 operations. Built with Next.js 14, Tailwind CSS, and Matrix-inspired aesthetics.
 
-## 🎯 Services Offered
+## 🎯 Research Focus
 
-- **Red Team Operations**: Full-spectrum adversary simulation and attack campaigns
-- **Custom Malware Development**: Bespoke offensive tools with EDR/AV evasion
-- **Exploit Development**: Zero-day research and proof-of-concept creation
-- **Security Tool Arsenal**: Custom frameworks and offensive security tools
-- **Elite Training Programs**: Advanced courses on penetration testing and malware analysis
+- **Kernel Exploitation**: Ring-0 privilege escalation and rootkit development
+- **Zero-Day Intelligence**: Vulnerability research and CVE discovery
+- **Exploit Development**: Advanced exploitation techniques and PoC creation
+- **APT Operations**: Adversary simulation and threat intelligence
+- **Security Research Training**: Advanced courses on kernel debugging and exploit development
 
 ## 🎨 Features
 
-- **Terminal-Inspired Aesthetic**: Professional monospace typography (JetBrains Mono) with CRT monitor effects
-- **Animated Grid Background**: Dynamic network visualization with nodes and connections
+- **Matrix Terminal Aesthetic**: JetBrains Mono typography with CRT effects and Matrix rain
+- **Animated Background**: Matrix-style falling characters with network visualization
 - **Typewriter Effect**: Terminal-style typing animation for hero text
-- **Dark Purple Theme**: Darker purple accents (#7c3aed) for professional appearance
+- **Matrix Green Theme**: Professional green accents (#00ff41) on dark background
+- **Pixel Art Skull Logo**: Retro-style animated skull with glitch effects
 - **Scanline Effect**: Subtle CRT scanlines and flicker for authentic terminal feel
 - **Fully Responsive Design**: Optimized for mobile, tablet, and desktop (320px - 4K)
 - **SEO Optimized**: Complete meta tags, structured data, sitemap, and Open Graph
-- **Glassmorphism Effects**: Beautiful frosted glass cards with purple borders
-- **Interactive Hover Effects**: Dark purple glow animations on interactive elements
-- **Hexagon Capabilities Pipeline**: SVG-based capability visualization
+- **Glassmorphism Effects**: Beautiful frosted glass cards with green borders
+- **Terminal Tooltips**: Hover effects showing command-line operations
+- **Hexagon Capabilities Pipeline**: SVG-based research capability visualization
 - **Mobile Navigation**: Hamburger menu with smooth transitions
-- **Legal Compliance**: Comprehensive disclaimer for offensive security tools
+- **Legal Compliance**: Professional disclaimer for security research operations
 
 ## 🚀 Tech Stack
 

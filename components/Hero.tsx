@@ -9,14 +9,36 @@ export default function Hero() {
     <section className="relative min-h-screen flex items-center justify-center pt-16 sm:pt-20 pb-24 sm:pb-32 px-4">
       {/* Title */}
       <div className="absolute top-24 sm:top-32 left-0 right-0 text-center px-4">
+        {/* Pixel Skull Logo */}
+        <div className="flex justify-center mb-6 sm:mb-8">
+          <div className="relative w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48">
+            <div className="absolute inset-0 blur-2xl bg-matrix-green/30 animate-pulse-slow"></div>
+            <div className="relative w-full h-full bg-gradient-to-br from-purple-600 via-purple-500 to-purple-700 rounded-lg overflow-hidden shadow-[0_0_30px_rgba(168,85,247,0.5)] hover:shadow-[0_0_50px_rgba(168,85,247,0.8)] transition-all duration-300">
+              <div className="absolute inset-0 grid grid-cols-8 grid-rows-8 gap-[2px] p-2">
+                {/* Pixel art skull pattern */}
+                <div className="col-span-8 row-span-1"></div>
+                <div className="col-span-2"></div><div className="col-span-4 bg-white/10"></div><div className="col-span-2"></div>
+                <div className="col-span-1"></div><div className="col-span-6 bg-white/20"></div><div className="col-span-1"></div>
+                <div className="col-span-1"></div><div className="col-span-1 bg-white/30"></div><div className="col-span-1 bg-black"></div><div className="col-span-2 bg-white/30"></div><div className="col-span-1 bg-matrix-green animate-pulse"></div><div className="col-span-1 bg-white/30"></div><div className="col-span-1"></div>
+                <div className="col-span-1 bg-white/20"></div><div className="col-span-1 bg-white/30"></div><div className="col-span-4 bg-white/30"></div><div className="col-span-1 bg-white/30"></div><div className="col-span-1 bg-white/20"></div>
+                <div className="col-span-2 bg-white/20"></div><div className="col-span-1 bg-black"></div><div className="col-span-2 bg-white/30"></div><div className="col-span-1 bg-black"></div><div className="col-span-2 bg-white/20"></div>
+                <div className="col-span-3 bg-white/20"></div><div className="col-span-2 bg-black"></div><div className="col-span-3 bg-white/20"></div>
+                <div className="col-span-8 row-span-1"></div>
+              </div>
+              {/* Glitch effect overlay */}
+              <div className="absolute inset-0 bg-gradient-to-b from-transparent via-purple-500/10 to-transparent animate-pulse"></div>
+            </div>
+          </div>
+        </div>
+        
         <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-[0.15em] sm:tracking-[0.2em] text-matrix-green text-shadow-glow mb-2">
-          <TypingEffect text="[VOID SECURITY LABS]" speed={80} />
+          <TypingEffect text="[NULL POINTER LABS]" speed={80} />
         </h1>
         <p className="mt-3 sm:mt-4 text-sm sm:text-base md:text-lg text-gray-200 tracking-[0.15em] sm:tracking-[0.2em] font-light px-4">
-          <TypingEffect text="> Underground Exploit Market & Custom Payload Development" speed={40} showCursor={false} />
+          <TypingEffect text="> Kernel-Level Exploitation & Zero-Day Research" speed={40} showCursor={false} />
         </p>
         <p className="mt-2 text-xs sm:text-sm text-matrix-green/70 tracking-wider">
-          [ TRUSTED BY BLACK HATS • GHOST OPS • ANONYMOUS COLLECTIVES ]
+          [ RING-0 OPERATIONS • APT RESEARCH • OFFENSIVE SECURITY ]
         </p>
       </div>
 
@@ -43,8 +65,8 @@ export default function Hero() {
             <div className="relative w-56 h-56 sm:w-64 sm:h-64 rounded-full glass-orb flex flex-col items-center justify-center transition-all duration-500 shadow-[0_0_20px_rgba(0,255,65,0.5)] hover:shadow-[0_0_40px_rgba(0,255,65,0.8)] hover:scale-105 border-matrix-green/30">
               <div className="absolute inset-0 rounded-full bg-gradient-to-br from-matrix-green/20 to-transparent"></div>
               <div className="text-center relative z-10">
-                <h2 className="text-xl sm:text-2xl font-bold tracking-[0.3em] text-matrix-green mb-2 group-hover:animate-glitch">[VOID]</h2>
-                <h2 className="text-xl sm:text-2xl font-bold tracking-[0.3em] text-matrix-green group-hover:animate-glitch">LABS</h2>
+                <h2 className="text-xl sm:text-2xl font-bold tracking-[0.3em] text-matrix-green mb-2 group-hover:animate-glitch">[NULL]</h2>
+                <h2 className="text-xl sm:text-2xl font-bold tracking-[0.3em] text-matrix-green group-hover:animate-glitch">POINTER</h2>
               </div>
             </div>
           </div>
