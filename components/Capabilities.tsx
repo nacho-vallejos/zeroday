@@ -58,7 +58,7 @@ export default function Capabilities() {
                     </div>
 
                     {/* Label */}
-                    <p className="mt-3 sm:mt-4 text-[9px] sm:text-[10px] text-gray-500 group-hover:text-matrix-green transition-colors text-center max-w-[80px] sm:max-w-[100px] tracking-wider">
+                    <p className="mt-3 sm:mt-4 text-[10px] sm:text-xs text-gray-300 group-hover:text-matrix-green transition-colors text-center max-w-[80px] sm:max-w-[100px] tracking-wider font-medium">
                       {capability.label}
                     </p>
                   </div>
@@ -73,8 +73,8 @@ export default function Capabilities() {
           {/* Exploit Marketplace */}
           <TerminalTooltip text="curl -X GET https://void.onion/api/exploits">
             <div className="glass-card p-6 sm:p-8 rounded-lg text-center hover:shadow-[0_0_20px_rgba(0,255,65,0.5)] transition-all duration-300 cursor-pointer border border-matrix-green/20 hover:border-matrix-green">
-              <h3 className="text-xs sm:text-sm font-semibold tracking-wider text-matrix-green mb-3">[EXPLOIT::MARKET]</h3>
-              <p className="text-[10px] sm:text-xs text-gray-400 leading-relaxed font-mono">
+              <h3 className="text-sm sm:text-base font-semibold tracking-wider text-matrix-green mb-3">[EXPLOIT::MARKET]</h3>
+              <p className="text-xs sm:text-sm text-gray-200 leading-relaxed font-mono">
                 500+ private 0days, CVE exploits, APT toolkits. Full source + documentation. Guaranteed FUD for 90 days.
               </p>
             </div>
@@ -83,8 +83,8 @@ export default function Capabilities() {
           {/* Custom Malware */}
           <TerminalTooltip text="./build_malware.sh --target=windows --bypass=all">
             <div className="glass-card p-6 sm:p-8 rounded-lg text-center hover:shadow-[0_0_20px_rgba(0,255,65,0.5)] transition-all duration-300 cursor-pointer border border-matrix-green/20 hover:border-matrix-green">
-              <h3 className="text-xs sm:text-sm font-semibold tracking-wider text-matrix-green mb-3">[MALWARE::CUSTOM]</h3>
-              <p className="text-[10px] sm:text-xs text-gray-400 leading-relaxed font-mono">
+              <h3 className="text-sm sm:text-base font-semibold tracking-wider text-matrix-green mb-3">[MALWARE::CUSTOM]</h3>
+              <p className="text-xs sm:text-sm text-gray-200 leading-relaxed font-mono">
                 Bespoke RATs, ransomware, keyloggers, cryptominers. Advanced evasion techniques. Persistence guaranteed.
               </p>
             </div>
@@ -93,8 +93,8 @@ export default function Capabilities() {
           {/* Underground Training */}
           <TerminalTooltip text="ssh training@darknet.void -p 31337">
             <div className="glass-card p-6 sm:p-8 rounded-lg text-center hover:shadow-[0_0_20px_rgba(0,255,65,0.5)] transition-all duration-300 cursor-pointer border border-matrix-green/20 hover:border-matrix-green">
-              <h3 className="text-xs sm:text-sm font-semibold tracking-wider text-matrix-green mb-3">[TRAINING::DARK]</h3>
-              <p className="text-[10px] sm:text-xs text-gray-400 leading-relaxed font-mono">
+              <h3 className="text-sm sm:text-base font-semibold tracking-wider text-matrix-green mb-3">[TRAINING::DARK]</h3>
+              <p className="text-xs sm:text-sm text-gray-200 leading-relaxed font-mono">
                 Learn from elite blackhats. Reverse engineering, exploit dev, network infiltration. Private 1-on-1 sessions.
               </p>
             </div>
@@ -103,15 +103,15 @@ export default function Capabilities() {
 
         {/* Team Info Section */}
         <div className="mt-12 sm:mt-16 glass-card p-6 sm:p-8 rounded-lg max-w-4xl mx-auto text-center border border-matrix-green/20" id="team">
-          <h3 className="text-sm sm:text-base font-bold tracking-wider text-matrix-green mb-4 animate-glitch">[CREW::ANONYMOUS]</h3>
-          <p className="text-xs sm:text-sm text-gray-300 leading-relaxed mb-4 font-mono">
+          <h3 className="text-base sm:text-lg font-bold tracking-wider text-matrix-green mb-4 animate-glitch">[CREW::ANONYMOUS]</h3>
+          <p className="text-sm sm:text-base text-gray-200 leading-relaxed mb-4 font-mono">
             Our collective includes seasoned <span className="text-matrix-green font-semibold">Black Hat Hackers</span>, 
             ex-APT operators, <span className="text-matrix-green font-semibold">Malware Architects</span>, 
             underground <span className="text-matrix-green font-semibold">Exploit Brokers</span>, 
             and <span className="text-matrix-green font-semibold">Network Infiltration Specialists</span>. 
             Operating since 2015. Trusted by ghost ops worldwide.
           </p>
-          <div className="flex flex-wrap justify-center gap-3 sm:gap-4 text-[10px] sm:text-xs text-gray-400 font-mono">
+          <div className="flex flex-wrap justify-center gap-3 sm:gap-4 text-xs sm:text-sm text-gray-300 font-mono">
             <span className="px-3 py-1 glass-card rounded border border-matrix-green/20">C/C++/ASM</span>
             <span className="px-3 py-1 glass-card rounded border border-matrix-green/20">Reverse Eng</span>
             <span className="px-3 py-1 glass-card rounded border border-matrix-green/20">Exploit Dev</span>
